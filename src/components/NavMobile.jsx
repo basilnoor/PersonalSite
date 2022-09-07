@@ -5,7 +5,6 @@ import { Link } from 'react-scroll'
 import { navigation } from '../data'
 import { XIcon } from '@heroicons/react/outline'
 import { MenuAlt3Icon } from '@heroicons/react/outline'
-import Socials from './Socials'
 
 
 const NavMobile = () => {
@@ -48,7 +47,7 @@ const NavMobile = () => {
 
             {/* circle */}
             <motion.div variants={circleVariants}
-                initial='hidden' animate={isOpen ? 'visible' : 'hidden'} className='w-4 h-4 rounded-full bg-cyan-700
+                initial='hidden' animate={isOpen ? 'visible' : 'hidden'} className='w-4 h-4 rounded-full bg-secondary
             fixed top-0 right-0'></motion.div>
 
             {/* menu */}

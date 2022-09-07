@@ -20,7 +20,9 @@ const About = () => {
                                 <p className='mb-4 text-cyan-700'>Full Stack Developer</p>
                                 <hr className='mb-8 opacity-5' />
                                 <p className='mb-8'>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ab fuga eveniet tempore corporis odio repellendus quos blanditiis numquam consequuntur, nihil quis earum quidem reprehenderit distinctio reiciendis dolore dolores recusandae.
+                                    I'm an aspiring software developer pursuing a post-baccalaureate degree at Oregon State University. It was difficult for me to pursue a career in programming because I had to give up a passion of mine, medicine.
+                                    However, after having done so, it was clear that I should have probably done so much sooner. I've always been fascinated by innovation and technology, and now this is where I'm putting all of my attention and ambitions. Going forward,
+                                    I intend to keep learning and honing my skills as a programmer. I'll keep updating this website so that everyone can follow my journey and learn more about who I am and what i'm currently working on.
                                 </p>
                             </div>
                         </div>

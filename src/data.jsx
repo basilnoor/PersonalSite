@@ -199,13 +199,13 @@ export const contact = [
     {
         icon: <FiMail />,
         title: 'Want to contact me?',
-        subtitle: 'Please email me anytime at:',
+        subtitle: 'Email me at:',
         description: 'basilnoor5@gmail.com',
     },
     {
         icon: <FiUser />,
         title: 'Get to know me better!',
         subtitle: 'Check out my socials',
-        description: 'Links in the footer!',
+        description: 'Links in the footer',
     },
 ];

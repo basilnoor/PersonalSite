@@ -1,7 +1,7 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { hobbies } from '../data';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -10,7 +10,7 @@ import '../swiper.css';
 const HobbiesSlider = () => {
     return (
         <>
-            <Swiper pagination={{ clickable: true }} autoplay={{ delay: 2500, disableOnInteraction: false, }} modules={{ Autoplay, Pagination }} className='mySwiper'>
+            <Swiper modules={[Autoplay, Pagination]} pagination={{ clickable: true }} autoplay={{ delay: 2500, disableOnInteraction: false, }} className='mySwiper'>
                 {hobbies.map((item, index) => {
                     const { hobImg, hobText, hobTitle, hobDesc } = item;
                     return <SwiperSlide key={index}>

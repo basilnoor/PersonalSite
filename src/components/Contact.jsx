@@ -9,8 +9,10 @@ const Contact = () => {
             <div className='container mx-auto'>
                 <div className='flex flex-col items-center text-center'>
                     <img className='hidden lg:block absolute  opacity-40' src={Outline} alt='' />
-                    <h2 className='section-title'>Contact me</h2>
-                    <p className='subtitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore qui quisquam vitae rem. Aliquam similique harum, architecto, blanditiis, exercitationem pariatur sed ab provident corporis corrupti in veritatis consectetur dolorum minima.</p>
+                    <div className='pt-12'>
+                        <h2 className='section-title'>Contact me</h2>
+                        <p className='subtitle'>Your time is something I value greatly. Please don't hesitate to email me if you have any questions, want to hire me, or even just want to say hello.</p>
+                    </div>
                 </div>
                 <div className='flex flex-col lg:gap-x-8 lg:flex-row'>
                     <div className='flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2'>
