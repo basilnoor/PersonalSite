@@ -6,6 +6,10 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
 import Portfolio from './components/Portfolio';
+import Hobbies from './components/Hobbies';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import BackTop from './components/BackTop';
 
 
 const App = () => {
@@ -17,8 +21,10 @@ const App = () => {
             <About />
             <Skills />
             <Portfolio />
-
-            <div style={{ height: '2000px' }}></div>
+            <Hobbies />
+            <Contact />
+            <Footer />
+            <BackTop />
         </div>
     )
 }
