@@ -1,33 +1,64 @@
 import React from 'react'
-import { Parallax } from 'react-parallax'
+import { ParallaxBanner } from 'react-scroll-parallax'
 
-import Background from '../assets/hero/background.png'
-import CloudBack from '../assets/hero/cloud_back.png'
-import CloudFront from '../assets/hero/cloud_front.png'
-import Trees from '../assets/hero/fore_trees.png'
-import House from '../assets/hero/house.png'
-import Mountain from '../assets/hero/mountain_back.png'
+import bg from "../assets/hero/stars.png";
+import moon from "../assets/hero/moon.png";
+import bg1 from "../assets/hero/bg-2.png";
+import bg2 from "../assets/hero/bg-3.png";
+import bg3 from "../assets/hero/bg-4.png";
+import bg4 from "../assets/hero/bg-5.png";
 
 const HeroParallax = () => {
     return (
-        <Parallax className='relative h-[1080px]' bgImage={Background} strength={800}>
-            <div className='flex items-center justify-center absolute h-[1080px] w-full'>
-                <div>
-                    <img src={CloudBack} alt='' />
+        <header>
+            <ParallaxBanner
+                id='home'
+                className="h-[100vh] w-full bg-#bbe8f6"
+                layers={[
+                    {
+                        className: 'bg-slate-900',
+                        image: bg,
+                        translateY: [0, 50],
+                        shouldAlwaysCompleteAnimation: true,
+                        expanded: false,
+                    },
+                    {
+                        image: moon,
+                        translateY: [0, 30],
+                        translateX: [0, 30],
+                        shouldAlwaysCompleteAnimation: true,
+                        expanded: false,
+                    },
+                    {
+                        image: bg1,
+                        translateY: [0, 55],
+                        shouldAlwaysCompleteAnimation: true,
+                        expanded: false,
+                    },
+                    {
+                        image: bg2,
+                        translateY: [0, 35],
+                        shouldAlwaysCompleteAnimation: true,
+                        expanded: false,
+                    },
+                    {
+                        image: bg3,
+                        translateY: [0, 25],
+                        shouldAlwaysCompleteAnimation: true,
+                        expanded: false,
+                    },
+                    {
+                        image: bg4,
+                        translateY: [0, 10],
+                        shouldAlwaysCompleteAnimation: true,
+                        expanded: false,
+                    },
 
-                </div>
-                <img src={Mountain} alt='' />
-                <img src={House} alt='' />
 
-                <div>
-                    <img src={Trees} alt='' />
-                </div>
-                <div>
-                    <img src={Mountain} alt='' />
-                </div>
-            </div>
-
-        </Parallax>
+                ]}
+            >
+            </ParallaxBanner>
+        </header>
 
     )
 }

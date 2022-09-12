@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { ParallaxProvider } from "react-scroll-parallax";
 
 // Importing components
 import Header from './components/Header';
@@ -13,21 +13,24 @@ import Footer from './components/Footer';
 import BackTop from './components/BackTop';
 import HeroParallax from './components/HeroParallax';
 import FramerHero from './components/FramerHero';
+import HeroPBasic from './components/HeroPBasic';
 
 
 const App = () => {
     return (
-        <div>
-            <Header />
-            <FramerHero />
-            <About />
-            <Skills />
-            <Portfolio />
-            <Hobbies />
-            <Contact />
-            <Footer />
-            <BackTop />
-        </div>
+        <ParallaxProvider>
+            <div>
+                <Header />
+                <HeroParallax />
+                <About />
+                <Skills />
+                <Portfolio />
+                <Hobbies />
+                <Contact />
+                <Footer />
+                <BackTop />
+            </div>
+        </ParallaxProvider>
     )
 }
 
