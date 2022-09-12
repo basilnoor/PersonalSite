@@ -26,10 +26,10 @@ import SkillImg7 from './assets/skills/html5.png';
 import SkillImg8 from './assets/skills/css3.png';
 
 // hobbies iamges
-import HobImage1 from './assets/hobbies/mma.webp';
-import HobImage2 from './assets/hobbies/gaming.jpg';
-import HobImage3 from './assets/hobbies/volleyball.jpg';
-import HobImage4 from './assets/hobbies/printing.jpg';
+import HobImage1 from './assets/hobbies/mma.png';
+import HobImage2 from './assets/hobbies/gaming.png';
+import HobImage3 from './assets/hobbies/sports.png';
+import HobImage4 from './assets/hobbies/printing.png';
 
 // navigation
 export const navigation = [
@@ -166,28 +166,28 @@ export const hobbies = [
     {
         hobImg: HobImage3,
         hobText:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ex possimus temporibus nesciunt, earum consequatur maiores fugit, adipisci ipsum incidunt dolorum recusandae voluptatem repellendus, perspiciatis corrupti? Saepe distinctio voluptatem vitae.',
+            "Growing up sports have been a huge part of my life. Whether it was playing soccer in elementary school, tennis in high school, or volleyball in college. I've been playing sports for as long as I can remember.",
         hobTitle: 'Sports',
         hobDesc: 'Soccer / Tennis / Volleyball',
     },
     {
         hobImg: HobImage1,
         hobText:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ex possimus temporibus nesciunt, earum consequatur maiores fugit, adipisci ipsum incidunt dolorum recusandae voluptatem repellendus, perspiciatis corrupti? Saepe distinctio voluptatem vitae.',
+            "I've always enjoyed watching mixed martial arts, especially the UFC, but I never actually started training. Fortunately, that all changed a couple of years ago when I began learning Brazillian Jiu Jitsu (BJJ). It is not an exaggeration to say that since learning BJJ, my outlook on life has changed, and overall, I couldn't be happier.",
         hobTitle: 'Mixed Martial arts',
         hobDesc: 'Brazillian Jiu Jitsu / Mauy Thai',
     },
     {
         hobImg: HobImage2,
         hobText:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ex possimus temporibus nesciunt, earum consequatur maiores fugit, adipisci ipsum incidunt dolorum recusandae voluptatem repellendus, perspiciatis corrupti? Saepe distinctio voluptatem vitae.',
+            "Gaming isn't only a hobby for me; it's also a way to satisfy my competitive nature. I enjoy playing fiercely competitive esports titles like League of Legends or Valorant. The skills needed to excel in these games appeal to me just as much as the skills required to excel in any of the other sports I play.",
         hobTitle: 'Gaming',
         hobDesc: 'FPS / MMORPG / Fighting',
     },
     {
         hobImg: HobImage4,
         hobText:
-            'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ex possimus temporibus nesciunt, earum consequatur maiores fugit, adipisci ipsum incidunt dolorum recusandae voluptatem repellendus, perspiciatis corrupti? Saepe distinctio voluptatem vitae.',
+            "As you may have seen, all of my past interests served as outlets for my competitive nature. On the other side, 3-D printing is a hobby that allows me to unwind, express my creativity, and produce something I find fascinating. From functional computer mouse to miniatures of marvel super heroes.",
         hobTitle: '3D-Printing',
         hobDesc: 'Functional Mice / Detailed Figures',
     },

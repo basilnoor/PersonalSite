@@ -58,9 +58,8 @@ const NavMobile = () => {
                     <XIcon className='w-8 h-8' />
                 </div>
                 {navigation.map((item, index) => {
-                    return <li key={index} className='mb-8'>
-                        <Link to={item.href}
-                            smooth={true} duration={400} offset={-70}
+                    return <li key={index} className='mb-8 hover:text-cyan-700'>
+                        <Link to={item.href} activeClass="active" smooth={true} duration={400} offset={-70}
                             className='text-xl cursor-pointer capitalize'>
 
                             {item.name}

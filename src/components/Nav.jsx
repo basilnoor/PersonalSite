@@ -1,10 +1,8 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
-// import navigation data
 import { navigation } from '../data'
 
-// import link
-import { Link } from 'react-scroll'
 
 const Nav = () => {
     return (
@@ -13,7 +11,9 @@ const Nav = () => {
                 {navigation.map((item, index) => {
                     return (
                         <li className='text-white hover:text-cyan-700 cursor-pointer' key={index}>
-                            <Link to={item.href} activeClass='active' spy={true} smooth={true} duration={500} offset={-70} className='transition-all duration-300'>
+                            <Link to={item.href} activeClass='active' spy={true} smooth={true} duration={400} offset={-70}
+                                className='transition-all duration-300'>
+
                                 {item.name}
                             </Link>
                         </li>
