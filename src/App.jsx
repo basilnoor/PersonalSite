@@ -12,8 +12,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import BackTop from './components/BackTop';
 import HeroParallax from './components/HeroParallax';
-import FramerHero from './components/FramerHero';
-import HeroPBasic from './components/HeroPBasic';
+
 
 
 const App = () => {

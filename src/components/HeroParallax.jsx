@@ -53,8 +53,6 @@ const HeroParallax = () => {
                         shouldAlwaysCompleteAnimation: true,
                         expanded: false,
                     },
-
-
                 ]}
             >
             </ParallaxBanner>

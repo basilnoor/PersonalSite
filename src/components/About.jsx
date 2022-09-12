@@ -1,4 +1,5 @@
 import React from 'react'
+import { Parallax } from 'react-scroll-parallax'
 
 import Image from '../assets/avatar_finished.svg'
 import Outline from '../assets/outline-text/about.svg'
@@ -12,7 +13,9 @@ const About = () => {
                         src={Image} alt='' />
                     <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>
                         <div className='flex flex-col'>
-                            <img className='hidden lg:block absolute opacity-40' src={Outline} alt='' />
+                            <Parallax translateY={[120, 55]} speed={5}>
+                                <img className='opacity-40' src={Outline} alt='' />
+                            </Parallax>
                             <div className='pt-12'>
                                 <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3'>
                                     Basil Noor
