@@ -3,6 +3,7 @@ import { Parallax } from 'react-scroll-parallax'
 
 import Image from '../assets/avatar_finished.svg'
 import Outline from '../assets/outline-text/about.svg'
+import Resume from '../assets/resume.pdf'
 
 const About = () => {
     return (
@@ -29,9 +30,11 @@ const About = () => {
                                 </p>
                             </div>
                         </div>
-                        <button className='btn btn-md bg-main hover:bg-main_dark transition-all'>
-                            Download my CV
-                        </button>
+                        <a href={Resume} target='_blank'>
+                            <button className='btn btn-md bg-main hover:bg-main_dark transition-all'>
+                                My Resume
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

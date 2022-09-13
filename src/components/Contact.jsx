@@ -1,10 +1,44 @@
-import React from 'react'
-import { Parallax } from 'react-scroll-parallax'
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+import { Parallax } from 'react-scroll-parallax';
+import { ToastContainer, toast } from 'react-toastify';
 
-import { contact } from '../data'
-import Outline from '../assets/outline-text/contact.svg'
+import { contact } from '../data';
+import 'react-toastify/dist/ReactToastify.min.css';
+import Outline from '../assets/outline-text/contact.svg';
+
+
 
 const Contact = () => {
+    // setup for contact form with emailJS
+    const form = useRef();
+
+    const [success, setSuccess] = useState(1);
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_3fnj3jm', 'template_vbnxcwk', form.current, 'uVbDPN1Gin4SPcN9j')
+            .then((result) => {
+                console.log(result.text);
+                setSuccess(1)
+            }, (error) => {
+                setSuccess(0)
+                console.log(error.text);
+            });
+    };
+
+    let notifyMsg = ''
+    const notify = () => {
+        if (success === 1) {
+            notifyMsg = '😊 Thank you for your message. I will get back to you shortly!'
+        } else {
+            notifyMsg = '😱 Something went wrong! Please email me directly or try again later.'
+        }
+        toast(notifyMsg,
+            { theme: 'dark', position: toast.POSITION.TOP_RIGHT, autoClose: 5000, hideProgressBar: false, newestOnTopcloseOnClickrtl: false, pauseOnFocusLoss: true, draggable: true, pauseOnHover: true, success: true })
+    };
+
     return (
         <section className='section bg-tertiary' id='contact'>
             <div className='container mx-auto'>
@@ -14,7 +48,7 @@ const Contact = () => {
                     </Parallax>
                     <div className='pt-12'>
                         <h2 className='section-title'>Contact me</h2>
-                        <p className='subtitle'>Your time is something I value greatly. Please don't hesitate to email me if you have any questions, want to hire me, or even just want to say hello.</p>
+                        <p className='subtitle'>Your time is very important to me. If you have any questions, would like to hire me, or even just want to say hello, don't be afraid to email me. I'll get back to you as soon as possible.</p>
                     </div>
                 </div>
                 <div className='flex flex-col lg:gap-x-8 lg:flex-row'>
@@ -32,14 +66,15 @@ const Contact = () => {
                         })}
                     </div>
                     {/* form */}
-                    <form className='space-y-8 w-full max-w-[780px]'>
+                    <form className='space-y-8 w-full max-w-[780px]' ref={form} onSubmit={sendEmail} >
                         <div className='flex gap-8'>
-                            <input className='input' type='text' placeholder='Your name' />
-                            <input className='input' type='text' placeholder='Your email' />
+                            <input className='input' name='user_name' type='text' placeholder='Your name' required />
+                            <input className='input' name='user_email' type='email' placeholder='Your email' required />
                         </div>
-                        <input type='text' className='input' placeholder='Subject' />
-                        <textarea className='textarea' placeholder='Your message'></textarea>
-                        <button className='btn btn-lg bg-main hover:bg-main_dark'>Send Message</button>
+                        <input type='text' className='input' name='user_subject' placeholder='Subject' required />
+                        <textarea className='textarea' name='message' placeholder='Your message' required />
+                        <button className='btn btn-lg bg-main hover:bg-main_dark' type='submit' value='Send' onClick={notify}>Send Message</button>
+                        <ToastContainer />
                     </form>
                 </div>
             </div>

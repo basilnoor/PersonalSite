@@ -13,7 +13,7 @@ const Skills = () => {
                             <div className='flex items-center justify-center' key={index}>
                                 <Tippy
                                     render={attrs => (
-                                        <div className="box text-main font-bold" tabIndex="-1" {...attrs}>
+                                        <div className="box text-main_light font-bold" tabIndex="-1" {...attrs}>
                                             {skill.name}
                                         </div>
                                     )} >

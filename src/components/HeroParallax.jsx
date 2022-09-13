@@ -16,7 +16,7 @@ const HeroParallax = () => {
                 id='home'
                 className="h-[100vh] w-full bg-slate-900" >
                 <ParallaxBannerLayer image={bg} translateY={[0, 50]} shouldAlwaysCompleteAnimation='true' expanded='false' />
-                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 4 }}>
+                <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 3, delay: 0.5 }}>
                     <ParallaxBannerLayer image={moon} translateY={[0, 30]} translateX={[0, 30]} shouldAlwaysCompleteAnimation='true' expanded='false' />
                 </motion.div>
                 <ParallaxBannerLayer image={bg1} translateY={[20, 50]} shouldAlwaysCompleteAnimation='true' expanded='false' />
