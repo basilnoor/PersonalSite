@@ -10,7 +10,7 @@ import '../swiper.css';
 const HobbiesSlider = () => {
     return (
         <>
-            <Swiper modules={[Autoplay, Pagination]} pagination={{ clickable: true }} autoplay={{ delay: 2500, disableOnInteraction: false, }} className='mySwiper'>
+            <Swiper modules={[Autoplay, Pagination]} pagination={{ clickable: true }} autoplay={{ delay: 7500, disableOnInteraction: false, }} className='mySwiper'>
                 {hobbies.map((item, index) => {
                     const { hobImg, hobText, hobTitle, hobDesc } = item;
                     return <SwiperSlide key={index}>
@@ -19,9 +19,9 @@ const HobbiesSlider = () => {
                                 <img className='rounded-2xl' src={hobImg} alt='' />
                             </div>
                             <div className='flex flex-col max-w-3xl'>
-                                <h5 className='font-body text-2xl mb-8 font'>{hobText}</h5>
+                                <h5 className='font-body text-xl mb-8 font'>{hobText}</h5>
                                 <div>
-                                    <p className='text-lg text-cyan-700'>{hobTitle}</p>
+                                    <p className='text-lg text-main'>{hobTitle}</p>
                                     <p>{hobDesc}</p>
                                 </div>
                             </div>

@@ -13,7 +13,7 @@ const Hero = () => {
                         <img src={Logo} alt='' />
                     </div>
                     <div className='flex-1 flex flex-col items-center lg:items-start'>
-                        <p className='text-xl text-cyan-700 mb-[22px] lg:text-2xl'>
+                        <p className='text-xl text-main mb-[22px] lg:text-2xl'>
                             Hello, I'm Basil
                         </p>
                         <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight md:tracking-[-2px]
@@ -23,7 +23,7 @@ const Hero = () => {
                         <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
                             Currently a student at Oregon State University
                         </p>
-                        <button className='btn btn-md bg-cyan-700 hover:bg-cyan-900 md:btn-lg transition-all'>
+                        <button className='btn btn-md bg-main hover:bg-main_dark md:btn-lg transition-all'>
                             Download my CV
                         </button>
                     </div>

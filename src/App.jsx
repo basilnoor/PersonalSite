@@ -12,6 +12,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import BackTop from './components/BackTop';
 import HeroParallax from './components/HeroParallax';
+import ParallaxBg from './components/ParallaxBg';
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
                 <About />
                 <Skills />
                 <Portfolio />
+                <ParallaxBg />
                 <Hobbies />
                 <Contact />
                 <Footer />

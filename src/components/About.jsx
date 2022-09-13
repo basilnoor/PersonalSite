@@ -6,21 +6,21 @@ import Outline from '../assets/outline-text/about.svg'
 
 const About = () => {
     return (
-        <section id='about' className='section bg-secondary'>
+        <section id='about' className='section bg-secondary pb-20'>
             <div className='container mx-auto'>
                 <div className='flex flex-col xl:flex-row gap-24'>
                     <img className='object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl'
                         src={Image} alt='' />
                     <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>
                         <div className='flex flex-col'>
-                            <Parallax translateY={[120, 55]} speed={5}>
+                            <Parallax translateY={[120, 50]} speed={5}>
                                 <img className='opacity-40' src={Outline} alt='' />
                             </Parallax>
                             <div className='pt-12'>
                                 <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3'>
                                     Basil Noor
                                 </h2>
-                                <p className='mb-4 text-cyan-700'>Full Stack Developer</p>
+                                <p className='mb-4 text-main'>Full Stack Developer</p>
                                 <hr className='mb-8 opacity-5' />
                                 <p className='mb-8'>
                                     I'm an aspiring software developer pursuing a post-baccalaureate degree at Oregon State University. It was difficult for me to pursue a career in programming because I had to give up a passion of mine, medicine.
@@ -29,7 +29,7 @@ const About = () => {
                                 </p>
                             </div>
                         </div>
-                        <button className='btn btn-md bg-cyan-700 hover:bg-cyan-900 transition-all'>
+                        <button className='btn btn-md bg-main hover:bg-main_dark transition-all'>
                             Contact me
                         </button>
                     </div>

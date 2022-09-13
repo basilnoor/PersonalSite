@@ -8,6 +8,9 @@ module.exports = {
         primary: '#050402',
         secondary: '#1C1D24',
         tertiary: '#131419',
+        main: '#6998AB',
+        main_dark: '#406882',
+        main_light: '#B1D0E0',
         paragraph: '#878e99',
         accent: {
           DEFAULT: '#ac6b34',

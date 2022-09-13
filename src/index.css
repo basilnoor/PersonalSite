@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,6 +6,10 @@
 
 * {
   font-family: 'Sora', sans-serif;
+}
+
+.active {
+  text-decoration-thickness: 2px;
 }
 
 @layer base {
@@ -35,7 +39,7 @@
   }
 
   .btn {
-    @apply py-4 px-7 font-medium text-white flex items-center justify-center rounded-sm hover:bg-cyan-900 transition-all;
+    @apply py-4 px-7 font-medium text-white flex items-center justify-center rounded-sm hover:bg-main_dark transition-all;
   }
 
   .btn-lg {
@@ -47,15 +51,16 @@
   }
 
   .input {
-    @apply bg-secondary text-paragraph h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-cyan-700;
+    @apply bg-secondary text-paragraph h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-main;
   }
 
   .textarea {
-    @apply bg-secondary resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1 focus:outline-cyan-700;
+    @apply bg-secondary resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1 focus:outline-main;
   }
 
   .active {
-    @apply text-cyan-700;
+    @apply underline;
+    @apply underline-offset-8;
+    @apply decoration-main;
   }
-
 }
