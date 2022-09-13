@@ -1,13 +1,14 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 
-import BgImg from '../assets/paraB2.jpg'
+import BgImg from '../assets/paraGoku.jpg'
 
 const ParallaxBg = () => {
     return (
         <div >
             <div className='bg-tertiary h-10'></div>
-            <Parallax className='absolute h-[25vh]' bgImage={BgImg} strength={-200} />
+            <Parallax className='absolute bg-white sm:h-[15vh] sm:pt-20 md:h-[20vh] md:pt-0 lg:h-[25vh]'
+                bgImage={BgImg} bgImageAlt='parallaxImage' strength={400} />
             <div className='bg-tertiary h-10'></div>
         </div>
     )

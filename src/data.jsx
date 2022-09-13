@@ -80,6 +80,7 @@ export const projectsData = [
         name: 'RankUp Valorant',
         category: 'Front-end',
         skills: 'React, Chakra Ui, CSS, Google Firebase',
+        href: 'https://github.com/basilnoor/RankUp-Valorant',
     },
     {
         id: '2',
@@ -87,6 +88,7 @@ export const projectsData = [
         name: 'Team Randomizer Bot',
         category: 'Back-end',
         skills: 'Python, Hikari API, Hikari-lightbulb Framework',
+        href: 'https://github.com/basilnoor/TeamRandomizerBot',
     },
     {
         id: '3',
@@ -94,6 +96,7 @@ export const projectsData = [
         name: 'Exercise App',
         category: 'both',
         skills: 'MongoDB, Express, REST APIs, NodeJs, React',
+        href: 'https://github.com/basilnoor/Exercise-Tracker',
     },
     {
         id: '4',
@@ -101,6 +104,7 @@ export const projectsData = [
         name: 'Text-based Adventure Game',
         category: 'Back-end',
         skills: 'Python',
+        href: 'https://github.com/basilnoor/TextAdventureGame',
     },
     {
         id: '5',
@@ -108,6 +112,7 @@ export const projectsData = [
         name: 'Weather App',
         category: 'both',
         skills: 'Python, Tkinter GUI',
+        href: 'https://github.com/basilnoor/WeatherApp',
     },
 ];
 
@@ -166,7 +171,7 @@ export const hobbies = [
     {
         hobImg: HobImage3,
         hobText:
-            "Growing up sports have been a huge part of my life. Whether it was playing soccer in elementary school, tennis in high school, or volleyball in college. I've been playing sports for as long as I can remember.",
+            "Sports have always been a huge part of my life. Whether it was playing soccer in elementary school, tennis in high school, or volleyball in college. I've been playing sports for as long as I can remember.",
         hobTitle: 'Sports',
         hobDesc: 'Soccer / Tennis / Volleyball',
     },

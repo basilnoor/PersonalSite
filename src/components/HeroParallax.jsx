@@ -6,7 +6,7 @@ import moon from "../assets/hero/moon.png";
 import bg1 from "../assets/hero/bg-2.png";
 import bg2 from "../assets/hero/bg-3.png";
 import bg3 from "../assets/hero/bg-4.png";
-import bg4 from "../assets/hero/bg-5.png";
+import bg4 from "../assets/hero/bg-5s.svg";
 
 const HeroParallax = () => {
     return (
@@ -49,7 +49,7 @@ const HeroParallax = () => {
                     },
                     {
                         image: bg4,
-                        translateY: [0, 10],
+                        translateY: [5, 10],
                         shouldAlwaysCompleteAnimation: true,
                         expanded: false,
                     },
