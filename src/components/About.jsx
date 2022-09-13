@@ -30,7 +30,7 @@ const About = () => {
                             </div>
                         </div>
                         <button className='btn btn-md bg-main hover:bg-main_dark transition-all'>
-                            Contact me
+                            Download my CV
                         </button>
                     </div>
                 </div>

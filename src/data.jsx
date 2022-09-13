@@ -192,7 +192,7 @@ export const hobbies = [
     {
         hobImg: HobImage4,
         hobText:
-            "As you may have seen, all of my past interests served as outlets for my competitive nature. On the other side, 3-D printing is a hobby that allows me to unwind, express my creativity, and produce something I find fascinating. From functional computer mouse to miniatures of marvel super heroes.",
+            "As you may have noticed, all of my previous interests serve as outlet for my competitive nature. On the other side, 3-D printing is a hobby that allows me to unwind, express my creativity, and produce something I find fascinating. From functional computer mice to miniatures of DC super heroes.",
         hobTitle: '3D-Printing',
         hobDesc: 'Functional Mice / Detailed Figures',
     },

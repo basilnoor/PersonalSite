@@ -11,17 +11,15 @@ const Header = () => {
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            return window.scrollY > 600 ? setBg(true) : setBg(false)
+            return window.scrollY > 650 ? setBg(true) : setBg(false)
         })
     });
 
     return (
         <header className={`${bg ? 'bg-tertiary h-20' : 'h-24'} 
-        flex items-center fixed top-0 w-full
-        text-white z-10 transition-all duration-300`}
-        >
-            <div className='container mx-auto h-full flex
-            items-center justify-between'>
+                        flex items-center fixed top-0 w-full
+                        text-white z-10 transition-all duration-300`} >
+            <div className='container mx-auto h-full flex items-center justify-between'>
                 {/* logo */}
                 <a href='#'>
                     <img className='h-8' src={Logo} alt='' />
