@@ -11,7 +11,7 @@ const Skills = () => {
                     {skills.map((skill, index) => {
                         return (
                             <div className='flex items-center justify-center' key={index}>
-                                <Tippy
+                                <Tippy hideOnClick={false}
                                     render={attrs => (
                                         <div className="box text-main_light font-bold" tabIndex="-1" {...attrs}>
                                             {skill.name}

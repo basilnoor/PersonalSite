@@ -48,7 +48,7 @@ const Contact = () => {
                     </Parallax>
                     <div className='pt-12'>
                         <h2 className='section-title'>Contact me</h2>
-                        <p className='subtitle'>Your time is very important to me. If you have any <b className='text-main'>question</b>, would like to <b className='text-main'>hire me</b>, or even just want to say hello; don't hesitate to <b className='text-main'>email me</b>. I'll get back to you as soon as possible.</p>
+                        <p className='subtitle'>Your time is very important to me. If you have any <b className='text-main'>questions</b>, would like to discuss employement, or even just want to say hello; don't hesitate to <b className='text-main'>email me</b>. I'll get back to you as soon as possible.</p>
                     </div>
                 </div>
                 <div className='flex flex-col lg:gap-x-8 lg:flex-row'>
@@ -68,11 +68,11 @@ const Contact = () => {
                     {/* form */}
                     <form className='space-y-8 w-full max-w-[780px]' ref={form} onSubmit={sendEmail} >
                         <div className='flex gap-8'>
-                            <input className='input' name='user_name' type='text' placeholder='Your name' required />
-                            <input className='input' name='user_email' type='email' placeholder='Your email' required />
+                            <input className='input font-roboto' name='user_name' type='text' placeholder='Your name' required />
+                            <input className='input font-roboto' name='user_email' type='email' placeholder='Your email' required />
                         </div>
-                        <input type='text' className='input' name='user_subject' placeholder='Subject' required />
-                        <textarea className='textarea' name='message' placeholder='Your message' required />
+                        <input type='text' className='input font-roboto' name='user_subject' placeholder='Subject' required />
+                        <textarea className='textarea font-roboto' name='message' placeholder='Your message' required />
                         <button className='btn btn-lg bg-main hover:bg-main_dark' type='submit' value='Send' onClick={notify}>Send Message</button>
                         <ToastContainer />
                     </form>

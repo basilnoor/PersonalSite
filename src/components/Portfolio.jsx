@@ -15,7 +15,7 @@ const Portfolio = () => {
                     <div className='pt-6 md:pt-12'>
                         <h2 className='section-title'> My Recent Projects</h2>
                         <p className='subtitle'>Here are a few of the projects I've worked on since I started my programming journey.
-                            These projects allowed me to channel my motivation and make things that I enjoyed.
+                            These projects allowed me to channel my motivation and make apps that I find helpful to others or simply enjoyed making.
                             My desire to create new projects only grows as I learn more. Every project is like a new puzzle that needs to be solved.
                             My love of programming and my passion for the field are both driven by this excitement for learning and solving problems.
                             <br /> <br />
