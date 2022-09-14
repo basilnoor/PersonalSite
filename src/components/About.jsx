@@ -12,7 +12,7 @@ const About = () => {
                 <div className='flex flex-col xl:flex-row gap-24'>
                     <img className='object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl'
                         src={Image} alt='' />
-                    <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>
+                    <div className='flex flex-col items-center text-center lg:items-start lg:text-left pb-5'>
                         <div className='flex flex-col'>
                             <Parallax translateY={[120, 50]} speed={5}>
                                 <img className='opacity-40' src={Outline} alt='' />
@@ -24,9 +24,12 @@ const About = () => {
                                 <p className='mb-4 text-main'>Full Stack Developer</p>
                                 <hr className='mb-8 opacity-5' />
                                 <p className='mb-8'>
-                                    I'm an aspiring software developer pursuing a post-baccalaureate degree at Oregon State University. It was difficult for me to pursue a career in programming because I had to give up a passion of mine, medicine.
-                                    However, after having done so, it was clear that I should have made the decision much sooner. I've always been fascinated by innovation and technology, and now this is where I'm putting all of my attention and ambitions. Going forward,
-                                    I intend to keep learning and honing my skills as a developer. I'll keep my portfolio updated so that all of you can follow along my journey and keep up with my growth as a person and programmer.
+                                    I'm an aspiring software developer pursuing a post-baccalaureate degree at <b className='text-main'>Oregon State University</b>.
+                                    I began my journey in programming later in life as I was originally pursuing another passion of mine, medicine.
+                                    Unsuprisingly, after I began studying to become a developer, it was clear that I should have made the decision much sooner.
+                                    I have always had an interest in technology, and working in software development allows me to explore this passion.
+                                    Going forward, I intend to keep learning and honing my skills as a developer.
+                                    I'll keep my portfolio updated so that all of you can follow along my journey and keep up with my growth as a person and programmer.
                                 </p>
                             </div>
                         </div>

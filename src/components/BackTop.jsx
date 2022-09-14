@@ -9,7 +9,7 @@ const BackTop = () => {
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            return window.scrollY > 600 ? setShow(true) : setShow(false);
+            return window.scrollY > 1700 ? setShow(true) : setShow(false);
         })
     });
 

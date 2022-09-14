@@ -5,7 +5,7 @@ const Project = ({ item }) => {
     return (
         <div key={item.id} className='flex flex-col items-center text-center border-2 p-2 bg-main_dark bg-opacity-5 shadow-2xl
          border-main_dark border-opacity-30 rounded-2xl hover:scale-105 hover:shadow-main hover:shadow-md'>
-            <a href={item.href}>
+            <a href={item.href} target='_blank'>
                 <div className='mb-8'>
                     <img className='rounded-2xl' src={item.image} alt='' />
                 </div>

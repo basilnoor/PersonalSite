@@ -134,35 +134,34 @@ export const skills = [
     {
         image: SkillImg1,
         name: 'Python',
-
-    },
-    {
-        image: SkillImg2,
-        name: 'Git',
-    },
-    {
-        image: SkillImg3,
-        name: 'JavaScript',
     },
     {
         image: SkillImg4,
         name: 'React',
     },
     {
-        image: SkillImg5,
-        name: 'Tailwind CSS',
-    },
-    {
-        image: SkillImg6,
-        name: 'NodeJs',
+        image: SkillImg3,
+        name: 'JavaScript',
     },
     {
         image: SkillImg7,
         name: 'HTML 5',
     },
     {
+        image: SkillImg5,
+        name: 'Tailwind CSS',
+    },
+    {
         image: SkillImg8,
         name: 'CSS 3',
+    },
+    {
+        image: SkillImg2,
+        name: 'Git',
+    },
+    {
+        image: SkillImg6,
+        name: 'NodeJs',
     },
 ];
 
@@ -171,28 +170,28 @@ export const hobbies = [
     {
         hobImg: HobImage3,
         hobText:
-            "Sports have always been a huge part of my life. Whether it was playing soccer in elementary school, tennis in high school, or volleyball in college. I've been playing sports for as long as I can remember.",
+            "Sports have always been a huge part of my life. Whether it was playing soccer in elementary school, tennis in high school, or volleyball in college. I've been playing sports for as long as I can remember. Specifically, team oriented sports bring me a lot of joy because I'm able to play alongside friends.",
         hobTitle: 'Sports',
         hobDesc: 'Soccer / Tennis / Volleyball',
     },
     {
         hobImg: HobImage1,
         hobText:
-            "I've always enjoyed watching mixed martial arts, especially the UFC, but I never actually started training. Fortunately, that all changed a couple of years ago when I began learning Brazillian Jiu Jitsu (BJJ). It is not an exaggeration to say that since learning BJJ, my outlook on life has changed, and overall, I couldn't be happier.",
+            "I enjoy watching mixed martial arts, especially the UFC, but I never actually started training. Fortunately, that all changed a couple of years ago when I began learning Brazillian Jiu Jitsu (BJJ). It is not an exaggeration to say that since learning BJJ, my outlook on life has changed, and overall, I couldn't be happier.",
         hobTitle: 'Mixed Martial arts',
         hobDesc: 'Brazillian Jiu Jitsu / Mauy Thai',
     },
     {
         hobImg: HobImage2,
         hobText:
-            "Gaming isn't only a hobby for me; it's also a way to satisfy my competitive nature. I enjoy playing fiercely competitive esports titles like League of Legends or Valorant. The skills needed to excel in these games appeal to me just as much as the skills required to excel in any of the other sports I play.",
+            "Personally, gaming is another way for me to satisfy my competitive nature. I enjoy playing fiercely competitive esports titles like Valorant or League of Legends. The skills needed to excel in these games appeal to me just as much as the skills required to excel in any of the other sports I play.",
         hobTitle: 'Gaming',
         hobDesc: 'FPS / MMORPG / Fighting',
     },
     {
         hobImg: HobImage4,
         hobText:
-            "As you may have noticed, all of my previous interests serve as outlet for my competitive nature. On the other side, 3-D printing is a hobby that allows me to unwind, express my creativity, and produce something I find fascinating. From functional computer mice to miniatures of DC super heroes.",
+            "As you may have noticed, all of my previous interests serve as outlets for my competitive nature. On the other side, 3-D printing is a hobby that allows me to unwind, express my creativity, and create something I find fascinating. From functional computer mice to miniatures of Marvel super heroes.",
         hobTitle: '3D-Printing',
         hobDesc: 'Functional Mice / Detailed Figures',
     },

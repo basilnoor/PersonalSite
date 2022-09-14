@@ -13,6 +13,7 @@ import Footer from './components/Footer';
 import BackTop from './components/BackTop';
 import HeroParallax from './components/HeroParallax';
 import ParallaxBg from './components/ParallaxBg';
+import Intro from './components/Intro';
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
             <div>
                 <Header />
                 <HeroParallax />
+                <Intro />
                 <About />
                 <Skills />
                 <Portfolio />

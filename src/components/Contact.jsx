@@ -48,7 +48,7 @@ const Contact = () => {
                     </Parallax>
                     <div className='pt-12'>
                         <h2 className='section-title'>Contact me</h2>
-                        <p className='subtitle'>Your time is very important to me. If you have any questions, would like to hire me, or even just want to say hello, don't be afraid to email me. I'll get back to you as soon as possible.</p>
+                        <p className='subtitle'>Your time is very important to me. If you have any <b className='text-main'>question</b>, would like to <b className='text-main'>hire me</b>, or even just want to say hello; don't hesitate to <b className='text-main'>email me</b>. I'll get back to you as soon as possible.</p>
                     </div>
                 </div>
                 <div className='flex flex-col lg:gap-x-8 lg:flex-row'>

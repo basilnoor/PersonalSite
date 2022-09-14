@@ -19,9 +19,9 @@ const HobbiesSlider = () => {
                                 <img className='rounded-2xl' src={hobImg} alt='' />
                             </div>
                             <div className='flex flex-col max-w-3xl'>
-                                <h5 className='font-body text-xl mb-8 font'>{hobText}</h5>
+                                <h5 className='text-lg mb-8 font-roboto'>{hobText}</h5>
                                 <div>
-                                    <p className='text-lg text-main'>{hobTitle}</p>
+                                    <p className='text-lg text-main font-semibold'>{hobTitle}</p>
                                     <p>{hobDesc}</p>
                                 </div>
                             </div>

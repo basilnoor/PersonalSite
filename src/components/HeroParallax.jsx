@@ -21,7 +21,7 @@ const HeroParallax = () => {
                 </motion.div>
                 <ParallaxBannerLayer image={bg1} translateY={[20, 50]} shouldAlwaysCompleteAnimation='true' expanded='false' />
                 <ParallaxBannerLayer image={bg2} translateY={[16, 35]} shouldAlwaysCompleteAnimation='true' expanded='false' />
-                <ParallaxBannerLayer className='flex text-center flex-col justify-center' translateY={[13, 35]} translateX={[5, 5]} shouldAlwaysCompleteAnimation='true' expanded='false'>
+                <ParallaxBannerLayer className='flex text-center flex-col justify-center' translateY={[14, 45]} translateX={[5, 5]} shouldAlwaysCompleteAnimation='true' expanded='false'>
                     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
                         <h1 className='font-roboto font-bold sm:text-8xl md:text-9xl drop-shadow-2xl'>Hello</h1>
                     </motion.div>

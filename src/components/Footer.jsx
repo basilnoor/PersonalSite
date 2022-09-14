@@ -19,10 +19,9 @@ const Footer = () => {
                         })}
                     </div>
                     <div>
-                        <img className=' h-12' src={Logo} alt='' />
+                        <img className='h-12' src={Logo} alt='' />
                     </div>
-
-                    <p>&copy; 2022 Basil Noor. All rights reserved.</p>
+                    <p>Handcrafted by me &copy; 2022</p>
                 </div>
             </div>
         </footer>
