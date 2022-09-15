@@ -1,7 +1,7 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 
-import BgImg from '../assets/paraGoku.jpg'
+import BgImg from '../assets/paraGoku.webp'
 
 const ParallaxBg = () => {
     return (

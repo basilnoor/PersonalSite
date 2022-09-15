@@ -9,27 +9,27 @@ import {
 } from 'react-icons/fi';
 
 // projects images
-import Project1 from './assets/projects/rankup.png';
-import Project2 from './assets/projects/tr-discord.png';
-import Project3 from './assets/projects/exercise_main.png';
+import Project1 from './assets/projects/rankup.webp';
+import Project2 from './assets/projects/tr-discord.webp';
+import Project3 from './assets/projects/exercise_main.webp';
 import Project4 from './assets/projects/text-based.gif';
-import Project5 from './assets/projects/weather_app.png';
+import Project5 from './assets/projects/weather_app.webp';
 
 // skills images
-import SkillImg1 from './assets/skills/python.png';
-import SkillImg2 from './assets/skills/git.png';
-import SkillImg3 from './assets/skills/js.png';
-import SkillImg4 from './assets/skills/reactjs.png';
-import SkillImg5 from './assets/skills/tailwind.png';
-import SkillImg6 from './assets/skills/nodejs.png';
-import SkillImg7 from './assets/skills/html5.png';
-import SkillImg8 from './assets/skills/css3.png';
+import SkillImg1 from './assets/skills/python.webp';
+import SkillImg2 from './assets/skills/git.webp';
+import SkillImg3 from './assets/skills/js.webp';
+import SkillImg4 from './assets/skills/reactjs.webp';
+import SkillImg5 from './assets/skills/tailwind.webp';
+import SkillImg6 from './assets/skills/nodejs.webp';
+import SkillImg7 from './assets/skills/html5.webp';
+import SkillImg8 from './assets/skills/css3.webp';
 
 // hobbies iamges
-import HobImage1 from './assets/hobbies/mma.png';
-import HobImage2 from './assets/hobbies/gaming.png';
-import HobImage3 from './assets/hobbies/sports.png';
-import HobImage4 from './assets/hobbies/printing.png';
+import HobImage1 from './assets/hobbies/mma.webp';
+import HobImage2 from './assets/hobbies/gaming.webp';
+import HobImage3 from './assets/hobbies/sports.webp';
+import HobImage4 from './assets/hobbies/printing.webp';
 
 // navigation
 export const navigation = [

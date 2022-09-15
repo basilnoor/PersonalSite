@@ -2,11 +2,11 @@ import React from 'react'
 import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax'
 import { motion } from 'framer-motion'
 
-import bg from "../assets/hero/stars.png";
-import moon from "../assets/hero/moon.png";
-import bg1 from "../assets/hero/bg-2.png";
-import bg2 from "../assets/hero/bg-3.png";
-import bg3 from "../assets/hero/bg-4.png";
+import bg from "../assets/hero/stars.webp";
+import moon from "../assets/hero/moon.webp";
+import bg1 from "../assets/hero/bg-2.webp";
+import bg2 from "../assets/hero/bg-3.webp";
+import bg3 from "../assets/hero/bg-4.webp";
 import bg4 from "../assets/hero/bg-5s.svg";
 
 const HeroParallax = () => {
@@ -30,7 +30,6 @@ const HeroParallax = () => {
                 <ParallaxBannerLayer image={bg4} translateY={[15, 0]} shouldAlwaysCompleteAnimation='true' expanded='false' />
             </ParallaxBanner>
         </header>
-
     )
 }
 
