@@ -26,7 +26,7 @@ const About = () => {
                                 <p className='mb-8'>
                                     I'm an aspiring software developer pursuing a post-baccalaureate degree at <a href="https://oregonstate.edu/" target="_blank" ><b className='text-main'>Oregon State University</b></a>.
                                     I began my journey in programming later in life as I was originally pursuing another passion of mine, medicine.
-                                    Unsuprisingly, after I began studying to become a developer, it was clear that I should have made the decision much sooner.
+                                    Unsurprisingly, after I began studying to become a developer, it was clear that I should have made the decision much sooner.
                                     I have always had an interest in technology, and working in software development allows me to explore this passion.
                                     Going forward, I intend to keep learning and honing my skills as a developer.
                                     I'll keep my portfolio updated so you can follow along my journey and keep up with my growth as a person and programmer.

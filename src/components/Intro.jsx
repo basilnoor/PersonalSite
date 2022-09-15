@@ -17,11 +17,11 @@ const Intro = () => {
                     <ParallaxBannerLayer translateY={[40, 55]} translateX={[55, 65]} speed={5} shouldAlwaysCompleteAnimation='true' expanded='false'>
                         <img className='md:w-28' src={name} alt='' />
                     </ParallaxBannerLayer>
-                    <ParallaxBannerLayer translateY={[47, 75]} translateX={[35, 35]} speed={1} shouldAlwaysCompleteAnimation='true' expanded='false'>
-                        <img src={A} alt='' />
+                    <ParallaxBannerLayer translateY={[47, 70]} translateX={[70, 30]} speed={1} shouldAlwaysCompleteAnimation='true' expanded='false'>
+                        <img className='sm:w-3` md:w-6' src={A} alt='' />
                     </ParallaxBannerLayer>
-                    <ParallaxBannerLayer translateY={[50, 75]} translateX={[35, 25]} speed={5} shouldAlwaysCompleteAnimation='true' expanded='false'>
-                        <img className='sm:w-56 md:w-96 lg:w-auto' src={title} alt='' />
+                    <ParallaxBannerLayer translateY={[50, 75]} translateX={[44, 25]} speed={5} shouldAlwaysCompleteAnimation='true' expanded='false'>
+                        <img className='sm:w-52 md:w-96 lg:w-auto' src={title} alt='' />
                     </ParallaxBannerLayer>
                 </ParallaxBanner>
             </div>
