@@ -47,7 +47,7 @@ const Contact = () => {
                         <img className='opacity-40' src={Outline} alt='' />
                     </Parallax>
                     <div className='pt-12'>
-                        <h2 className='section-title'>Contact Me</h2>
+                        <h1 className='section-title'>Contact Me</h1>
                         <p className='subtitle'>Your time is very important to me. If you have any <b className='text-main'>questions</b>, would like to discuss employment, or even just want to say hello; don't hesitate to <b className='text-main'>email me</b>. I'll get back to you as soon as possible.</p>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const Contact = () => {
                             return <div className='flex flex-col lg:flex-row gap-x-4' key={index}>
                                 <div className='text-main rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl'>{icon}</div>
                                 <div>
-                                    <h4 className='font-body text-xl mb-1'>{title}</h4>
+                                    <h2 className='font-body text-xl mb-1'>{title}</h2>
                                     <p className='mb-1'>{subtitle}</p>
                                     <p className='text-main font-normal'>{description}</p>
                                 </div>

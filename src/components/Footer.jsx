@@ -10,9 +10,9 @@ const Footer = () => {
                 <div className='flex flex-col lg:flex-row space-y-6 lg:space-y-0 items-center justify-between'>
                     <div className='flex space-x-6 items-center justify-center'>
                         {social.map((item, index) => {
-                            const { href, icon } = item;
+                            const { href, icon, title } = item;
                             return (
-                                <a className='text-main text-xl hover:text-main_light hover:scale-110 hover:animate-spin' href={href} key={index}>
+                                <a className='text-main text-xl hover:text-main_light hover:scale-110 hover:animate-spin' href={href} alt={title} key={index}>
                                     {icon}
                                 </a>
                             )
