@@ -51,14 +51,14 @@ const NavMobile = () => {
             fixed top-0 right-0'></motion.div>
 
             {/* menu */}
-            <motion.ul variants={ulVariants}
+            <motion.div variants={ulVariants}
                 initial='hidden' animate={isOpen ? 'visible' : ''} className={`${isOpen ? 'right-0' : '-right-full'} 
             fixed top-0 bottom-0 w-full flex flex-col justify-center items-center transition-all duration-300 overflow-hidden`}>
                 <div onClick={() => setIsOpen(false)} className='cursor-pointer absolute top-8 right-8'>
                     <XIcon className='w-8 h-8' />
                 </div>
                 {navigation.map((item, index) => {
-                    return <li key={index} className='mb-8 hover:text-main'>
+                    return <li key={index} className='mb-8 hover:text-main list-none'>
                         <Link to={item.href} activeClass="active" smooth={true} duration={400} offset={-70}
                             className='text-xl cursor-pointer capitalize'>
 
@@ -66,7 +66,7 @@ const NavMobile = () => {
                         </Link>
                     </li>
                 })}
-            </motion.ul>
+            </motion.div>
         </nav>
     )
 }
