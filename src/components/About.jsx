@@ -34,7 +34,7 @@ const About = () => {
                             </div>
                         </div>
                         <a href={Resume} target='_blank'>
-                            <button className='btn btn-md bg-main hover:bg-main_dark transition-all'>
+                            <button className='btn btn-md bg-main_button hover:bg-main_button_hover transition-all'>
                                 My Resume
                             </button>
                         </a>

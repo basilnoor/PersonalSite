@@ -73,7 +73,7 @@ const Contact = () => {
                         </div>
                         <input type='text' className='input font-roboto' name='user_subject' placeholder='Subject' required />
                         <textarea className='textarea font-roboto' name='message' placeholder='Your message' required />
-                        <button className='btn btn-lg bg-main hover:bg-main_dark' type='submit' value='Send' onClick={notify}>Send Message</button>
+                        <button className='btn btn-lg bg-main_button hover:bg-main_button_hover' type='submit' value='Send' onClick={notify}>Send Message</button>
                         <ToastContainer />
                     </form>
                 </div>

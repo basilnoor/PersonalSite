@@ -9,9 +9,11 @@ module.exports = {
         secondary: '#1C1D24',
         tertiary: '#131419',
         main: '#6998AB',
+        main_button_hover: '#263C4F',
         main_dark: '#406882',
         main_light: '#B1D0E0',
-        paragraph: '#878e99',
+        main_button: '#385D71',
+        paragraph: '#A2A8AF',
         accent: {
           DEFAULT: '#ac6b34',
           hover: '#925a2b',

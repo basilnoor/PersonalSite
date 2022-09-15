@@ -21,7 +21,7 @@ const HobbiesSlider = () => {
                             <div className='flex flex-col max-w-3xl'>
                                 <h5 className='text-lg mb-8 font-roboto'>{hobText}</h5>
                                 <div>
-                                    <p className='text-lg text-main font-semibold'>{hobTitle}</p>
+                                    <p className='text-lg text-main_light font-semibold'>{hobTitle}</p>
                                     <p>{hobDesc}</p>
                                 </div>
                             </div>
