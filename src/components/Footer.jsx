@@ -15,7 +15,7 @@ const Footer = () => {
                     <div>
                         <img className='h-12' src={Logo} alt='' />
                     </div>
-                    <p>Handcrafted by me &copy; 2022</p>
+                    <p className='text-sm'>Handcrafted by me &copy; 2022</p>
                 </div>
             </div>
         </footer>
