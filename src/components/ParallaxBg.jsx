@@ -1,5 +1,6 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
+import { ParallaxBanner } from 'react-scroll-parallax';
 
 import BgImg from '../assets/paraGoku.webp'
 

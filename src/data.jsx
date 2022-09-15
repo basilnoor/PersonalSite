@@ -61,16 +61,19 @@ export const social = [
         icon: <FiLinkedin />,
         href: 'https://www.linkedin.com/in/basilnoor/',
         title: 'linkedin-logo',
+        titleF: 'linkedin-footer-logo',
     },
     {
         icon: <FiGithub />,
         href: 'https://github.com/basilnoor',
         title: 'github-logo',
+        titleF: 'github-footer-logo',
     },
     {
         icon: <FiInstagram />,
         href: 'https://www.instagram.com/basilnoor/',
         title: 'insta-logo',
+        titleF: 'insta-footer-logo',
     },
 ];
 
