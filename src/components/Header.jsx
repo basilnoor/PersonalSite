@@ -21,8 +21,8 @@ const Header = () => {
                         text-white z-10 transition-all duration-300`} >
             <div className='container mx-auto h-full flex items-center justify-between'>
                 {/* logo */}
-                <a href='#'>
-                    <img className='h-8' src={Logo} alt='' />
+                <a href='home'>
+                    <img className='h-8' src={Logo} alt='basil-home-logo' />
                 </a>
                 {/* Nav */}
                 <div className='hidden lg:block'>

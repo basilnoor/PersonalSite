@@ -11,9 +11,8 @@ const Nav = () => {
                 {navigation.map((item, index) => {
                     return (
                         <li className='text-white hover:text-main cursor-pointer' key={index}>
-                            <Link to={item.href} activeClass='active' spy={true} smooth={true} duration={400} offset={-70}
+                            <Link to={item.href} href={item.href} activeClass='active' spy={true} smooth={true} duration={400} offset={-70}
                                 className='transition-all duration-300'>
-
                                 {item.name}
                             </Link>
                         </li>
