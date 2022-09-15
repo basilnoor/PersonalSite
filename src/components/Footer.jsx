@@ -2,6 +2,7 @@ import React from 'react'
 
 import { social } from '../data'
 import Logo from '../assets/logo.svg'
+import Socials from './Socials'
 
 const Footer = () => {
     return (
@@ -9,14 +10,7 @@ const Footer = () => {
             <div className='container mx-auto'>
                 <div className='flex flex-col lg:flex-row space-y-6 lg:space-y-0 items-center justify-between'>
                     <div className='flex space-x-6 items-center justify-center'>
-                        {social.map((item, index) => {
-                            const { href, icon, titleF } = item;
-                            return (
-                                <a className='text-main text-xl hover:text-main_light hover:scale-110 hover:animate-spin' href={href} alt={titleF} key={index}>
-                                    {icon}
-                                </a>
-                            )
-                        })}
+                        <Socials />
                     </div>
                     <div>
                         <img className='h-12' src={Logo} alt='' />
