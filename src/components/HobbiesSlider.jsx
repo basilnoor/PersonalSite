@@ -13,12 +13,12 @@ const HobbiesSlider = () => {
             <Swiper modules={[Autoplay, Pagination]} pagination={{ clickable: true }} autoplay={{ delay: 7500, disableOnInteraction: false, }} className='mySwiper bg-secondary'>
                 {hobbies.map((item, index) => {
                     const { hobImg, hobText, hobTitle, hobDesc } = item;
-                    return <SwiperSlide key={index}>
-                        <div className='flex flex-col lg:flex-row gap-12 lg:gap-32'>
+                    return <SwiperSlide key={index} className='bg-secondary'>
+                        <div className='flex flex-col lg:flex-row gap-12 lg:gap-32 bg-secondary'>
                             <div className='w-48 h-48 lg:w-[328px] lg:h-[328px]'>
                                 <img className='rounded-2xl' src={hobImg} alt='' />
                             </div>
-                            <div className='flex flex-col max-w-3xl'>
+                            <div className='flex flex-col max-w-3xl bg-secondary'>
                                 <h1 className='text-lg mb-8 font-roboto'>{hobText}</h1>
                                 <div>
                                     <p className='text-lg text-main_light font-semibold'>{hobTitle}</p>
