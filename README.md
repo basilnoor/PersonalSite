@@ -3,6 +3,6 @@
 
 ### Hosted: www.basilnoor.com
 
-###$ Languages/Frameworks/Tools used:
+#### Languages/Frameworks/Tools used:
 
 - Javascript, HTML, CSS, React, Tailwind CSS, Visual Studio Code
