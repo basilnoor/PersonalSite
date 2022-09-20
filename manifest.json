@@ -9,23 +9,33 @@
     "icons": [
         {
             "src": "/logo_filled.svg",
+            "sizes": "72x72",
             "type": "image/svg",
-            "sizes": "72x72"
+            "purpose": "maskable"
         },
         {
             "src": "/logo_filled.svg",
+            "sizes": "128x128",
             "type": "image/svg",
-            "sizes": "128x128"
+            "purpose": "maskable"
         },
         {
             "src": "/logo_filled.svg",
+            "sizes": "192x192",
             "type": "image/svg",
-            "sizes": "192x192"
+            "purpose": "maskable"
         },
         {
             "src": "/logo_filled.svg",
+            "sizes": "96x96",
             "type": "image/svg",
-            "sizes": "96x796"
+            "purpose": "maskable"
+        },
+        {
+            "src": "/logo_filled.svg",
+            "sizes": "512x512",
+            "type": "image/svg",
+            "purpose": "maskable"
         }
     ]
 }
