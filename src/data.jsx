@@ -12,7 +12,7 @@ import {
 import Project1 from './assets/projects/rankup.webp';
 import Project2 from './assets/projects/tr-discord.webp';
 import Project3 from './assets/projects/exercise_main.webp';
-import Project4 from './assets/projects/text-based.gif';
+import Project4 from './assets/projects/text-based.webp';
 import Project5 from './assets/projects/weather_app.webp';
 
 // skills images
