@@ -1,5 +1,5 @@
 # Portfolio Website
-> If scroll experience is not smooth please ensure that **'hardware accelleration'** is turned **on** in your browser. For some reason the 'react-scroll-parallax' library used is not optimized with this setting turned off.
+> If scroll experience is not smooth please ensure that **'hardware accelleration'** is turned **on** in your browser. The 'react-scroll-parallax' library used to create the intro is not optimized for this setting being turned off.
 
 ### Hosted: www.basilnoor.com
 
