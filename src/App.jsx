@@ -14,6 +14,8 @@ import BackTop from './components/BackTop';
 import HeroParallax from './components/HeroParallax';
 import ParallaxBg from './components/ParallaxBg';
 import Intro from './components/Intro';
+import Skills2 from './components/Skills2';
+import Work from './components/work';
 
 
 
@@ -26,6 +28,8 @@ const App = () => {
                 <Intro />
                 <About />
                 <Skills />
+                <Work />
+                <Skills2 />
                 <Portfolio />
                 <ParallaxBg />
                 <Hobbies />

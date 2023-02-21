@@ -24,6 +24,13 @@ import SkillImg5 from './assets/skills/tailwind.webp';
 import SkillImg6 from './assets/skills/nodejs.webp';
 import SkillImg7 from './assets/skills/html5.webp';
 import SkillImg8 from './assets/skills/css3.webp';
+import SkillImg9 from './assets/skills/mysql.webp';
+import SkillImg10 from './assets/skills/mongodb.webp';
+import SkillImg11 from './assets/skills/firebase.webp';
+import SkillImg12 from './assets/skills/bash.webp';
+import SkillImg13 from './assets/skills/c.webp';
+import SkillImg14 from './assets/skills/docker.webp';
+import SkillImg15 from './assets/skills/jenkins.webp';
 
 // hobbies iamges
 import HobImage1 from './assets/hobbies/mma.webp';
@@ -40,6 +47,10 @@ export const navigation = [
     {
         name: 'ABOUT',
         href: 'about',
+    },
+    {
+        name: 'WORK',
+        href: 'work',
     },
     {
         name: 'PORTFOLIO',
@@ -168,7 +179,39 @@ export const skills = [
     {
         image: SkillImg6,
         name: 'NodeJs',
+    }
+];
+
+// skill 2
+export const skills2 = [
+    {
+        image: SkillImg9,
+        name: 'MySQL',
     },
+    {
+        image: SkillImg10,
+        name: 'MongoDB',
+    },
+    {
+        image: SkillImg11,
+        name: 'Firebase',
+    },
+    {
+        image: SkillImg12,
+        name: 'Bash',
+    },
+    {
+        image: SkillImg13,
+        name: 'C',
+    },
+    {
+        image: SkillImg14,
+        name: 'Docker',
+    },
+    {
+        image: SkillImg15,
+        name: 'Jenkins',
+    }
 ];
 
 // hobbies
