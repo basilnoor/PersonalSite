@@ -24,11 +24,10 @@ const About = () => {
                                 <p className='mb-4 text-main'>Full Stack Developer</p>
                                 <hr className='mb-8 opacity-5' />
                                 <p className='mb-8'>
-                                    Greetings! I am Basil, an aspiring software developer. My programming journey began in 2021, when I enrolled in a post-baccalaureate degree program at <a href="https://oregonstate.edu/" target="_blank" ><b className='text-main'>Oregon State University</b></a>.
-                                    Although I have experience in medicine and business, i've found a deep passion for the world of software development.
+                                    My programming journey took off in 2021 when i enrolled at <a href="https://oregonstate.edu/" target="_blank" ><b className='text-main'>Oregon State University</b></a>.
+                                    Despite my background in medicine and business, I discouvered a deep passion for the world of software development.
                                     Moving forward, I'm committed to continuous learning and refining my skills as a developer.
-                                    You can keep track of my progress here as I plan to regularly update my portfolio.
-                                    I invite you to join me on my journey as a professional and programmer.
+                                    I'll be updating my portfolio regularly, so feel free to keep tabs on my progress here!
                                 </p>
                             </div>
                         </div>

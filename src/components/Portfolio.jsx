@@ -13,14 +13,13 @@ const Portfolio = () => {
                         <img className='opacity-40' src={Outline} alt='' />
                     </Parallax>
                     <div className='pt-6 md:pt-12'>
-                        <h2 className='section-title'> My Recent Projects</h2>
-                        <p className='subtitle'>Here are a few of the projects I've worked on since I started my programming journey.
-                            These projects allowed me to channel my motivation and make apps that I find helpful to others or simply enjoyed making.
-                            My desire to create new projects only grows as I learn more. Every project is like a new puzzle that needs to be solved.
-                            My love of programming and my passion for the field are both driven by this excitement for learning and solving problems.
+                        <h2 className='section-title'>Archived Projects</h2>
+                        <p className='subtitle'>Here are some of the projects I've worked on since I started my programming journey.
+                            These projects have given me the chance to stay motivated and create apps that I found helpful or just really enjoyed making.
+                            My love for programming and my passion for the field are fueled by this excitement to keep learning and creating new projects.
                             <br /> <br />
-                            Please don't hesitate to <b className='text-main'>click</b> any of the projects below to view the <b className='text-main'>github repo</b>. In the readme files I go into more details about each project,
-                            design decisions, skills / technologies and more!
+                            To learn more, please <b className='text-main'>click</b> any of the projects below to view the <b className='text-main'>github repo</b>.
+                            In the readme files I go into more details about each project, design decisions, and skills / technologies used.
                         </p>
                     </div>
                 </div>

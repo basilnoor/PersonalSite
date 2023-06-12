@@ -16,9 +16,9 @@ const Work = () => {
                         <img className='opacity-40' src={Outline} alt='' />
                     </Parallax>
                     <div className='pt-6 md:pt-12'>
-                        <h2 className='section-title'>Timeline</h2>
-                        <p className='subtitle'>Below, you will find my professional timeline. Starting with my work as a self-employed store franchisee
-                            and extending to my current position as a software engineer. Please refer to my <a href={Resume} target='_blank'><b className='text-main'>resume</b></a> for details.
+                        <h2 className='section-title'>Employment History</h2>
+                        <p className='subtitle'>Please find below my professional timeline. Starting from my experience as a self-employed store franchisee and extending to my current role as a software engineer.
+                            For detailed information, please refer to my resume by clicking <a href={Resume} target='_blank'><b className='text-main'>here</b></a>.
                         </p>
                     </div>
                 </div>

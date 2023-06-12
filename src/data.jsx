@@ -219,32 +219,24 @@ export const hobbies = [
     {
         hobImg: HobImage3,
         hobText:
-            "Sports have always been a huge part of my life. Whether it was playing soccer in elementary school, tennis in high school, or volleyball in college. I've been playing sports for as long as I can remember. Specifically, team oriented sports bring me a lot of joy because I'm able to play alongside friends.",
+            "Sports have always played a significant role in my life. Starting from playing soccer during elementary school to tennis in high school and volleyball during college. I have been happily engaged in sports for as long as I can remember.",
         hobTitle: 'Sports',
         hobDesc: 'Soccer / Tennis / Volleyball',
     },
     {
         hobImg: HobImage1,
         hobText:
-            "I enjoy watching mixed martial arts, especially the UFC, but I never actually started training. Fortunately, that all changed a couple of years ago when I began learning Brazillian Jiu Jitsu (BJJ). It is not an exaggeration to say that since learning BJJ, my outlook on life has changed, and overall, I couldn't be happier.",
+            "From a young age, martial arts have captivated my interest. Growing up in Canada, I had the opportunity to train in boxing, and now I am fortunate enough to be learning Brazilian Jiu-Jitsu (BJJ) where i plan to occasionally compete.",
         hobTitle: 'Mixed Martial arts',
-        hobDesc: 'Brazillian Jiu Jitsu / Mauy Thai',
+        hobDesc: 'Boxing / Brazillian Jiu Jitsu',
     },
     {
         hobImg: HobImage2,
         hobText:
-            "Personally, gaming is another way for me to satisfy my competitive nature. I enjoy playing fiercely competitive esports titles like Valorant or League of Legends. The skills needed to excel in these games appeal to me just as much as the skills required to excel in any of the other sports I play.",
+            "Gaming is another way for me to satisfy my competitive nature. I enjoy playing competitive esports titles like Valorant or League of Legends. The skills needed to excel in these games appeal to me just as much as the skills required to excel in any of the other sports I play.",
         hobTitle: 'Gaming',
         hobDesc: 'FPS / MMORPG / Fighting',
     },
-    {
-        hobImg: HobImage4,
-        hobText:
-            "As you may have noticed, all of my previous interests serve as outlets for my competitive nature. On the other side, 3-D printing is a hobby that allows me to unwind, express my creativity, and create something I find fascinating. From functional computer mice to miniatures of Marvel super heroes.",
-        hobTitle: '3D-Printing',
-        hobDesc: 'Functional Mice / Detailed Figures',
-    },
-
 ];
 
 // contact

@@ -10,7 +10,7 @@ import '../swiper.css';
 const HobbiesSlider = () => {
     return (
         <>
-            <Swiper modules={[Autoplay, Pagination]} pagination={{ clickable: true }} autoplay={{ delay: 7500, disableOnInteraction: false, }} className='mySwiper bg-secondary'>
+            <Swiper modules={[Autoplay, Pagination]} pagination={{ clickable: true }} autoplay={{ delay: 7250, disableOnInteraction: false, }} className='mySwiper bg-secondary z-0'>
                 {hobbies.map((item, index) => {
                     const { hobImg, hobText, hobTitle, hobDesc } = item;
                     return <SwiperSlide key={index} className='bg-secondary'>
