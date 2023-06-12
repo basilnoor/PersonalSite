@@ -202,7 +202,7 @@ export const skills2 = [
     },
     {
         image: SkillImg13,
-        name: 'C',
+        name: 'C Programming Language',
     },
     {
         image: SkillImg14,

@@ -16,7 +16,6 @@ const Portfolio = () => {
                         <h2 className='section-title'>Archived Projects</h2>
                         <p className='subtitle'>Here are some of the projects I've worked on since I started my programming journey.
                             These projects have given me the chance to stay motivated and create apps that I found helpful or just really enjoyed making.
-                            My love for programming and my passion for the field are fueled by this excitement to keep learning and creating new projects.
                             <br /> <br />
                             To learn more, please <b className='text-main'>click</b> any of the projects below to view the <b className='text-main'>github repo</b>.
                             In the readme files I go into more details about each project, design decisions, and skills / technologies used.

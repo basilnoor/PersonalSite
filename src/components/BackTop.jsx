@@ -21,7 +21,7 @@ const BackTop = () => {
         show && (
             <button onClick={() => scrollTop()}
                 className='bg-main w-10 h-10 hover:bg-main_dark text-white rounded-full 
-                fixed right-24 bottom-24 cursor-pointer flex justify-center items-center transition-all'>
+                fixed right-24 bottom-24 cursor-pointer flex justify-center items-center transition-all z-30'>
                 <ChevronUpIcon className='w-6 h-6' />
             </button>
         )

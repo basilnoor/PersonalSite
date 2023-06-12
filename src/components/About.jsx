@@ -25,7 +25,7 @@ const About = () => {
                                 <hr className='mb-8 opacity-5' />
                                 <p className='mb-8'>
                                     My programming journey took off in 2021 when i enrolled at <a href="https://oregonstate.edu/" target="_blank" ><b className='text-main'>Oregon State University</b></a>.
-                                    Despite my background in medicine and business, I discouvered a deep passion for the world of software development.
+                                    Despite my background in medicine and business, I discovered a deep passion for the world of software development.
                                     Moving forward, I'm committed to continuous learning and refining my skills as a developer.
                                     I'll be updating my portfolio regularly, so feel free to keep tabs on my progress here!
                                 </p>
