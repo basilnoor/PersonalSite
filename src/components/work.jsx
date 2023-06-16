@@ -24,7 +24,7 @@ const Work = () => {
                 </div>
                 <div className='container mx-auto flex flex-col items-center justify-center mb-20'>
                     <section className=''>
-                        <div className='sticky top-20 bg-secondary py-3 z-10 shadow-xl shadow-secondary'>
+                        <div className='sticky top-16 bg-secondary py-3 z-10 shadow-xl shadow-secondary'>
                             <h2 className='sm:text-3xl md:pr-24 text-4xl py-4 font-bold tracking-widest'>November 2017</h2>
                         </div>
                         <img className='h-32 pt-2' src={eleven} alt='' />
@@ -52,7 +52,7 @@ const Work = () => {
                         </div>
                     </section>
                     <section className=''>
-                        <div className='sticky top-20 bg-secondary py-3 z-10 shadow-xl shadow-secondary'>
+                        <div className='sticky top-16 bg-secondary py-3 z-10 shadow-xl shadow-secondary'>
                             <h2 className='sm:text-3xl text-4xl px-3 py-4 font-bold tracking-widest'>May 2023</h2>
                         </div>
                         <img className='h-32' src={freddie} alt='' />
@@ -71,7 +71,7 @@ const Work = () => {
                             </div>
                         </div>
                     </section>
-                    <div className='sticky top-20 bg-secondary py-3 z-10 shadow-xl shadow-secondary'>
+                    <div className='sticky top-16 bg-secondary py-3 z-10 shadow-xl shadow-secondary'>
                         <h2 className='sm:text-3xl text-4xl py-4 font-bold tracking-widest'>Present</h2>
                     </div>
                 </div>
