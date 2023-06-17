@@ -15,10 +15,10 @@ const Portfolio = () => {
                     <div className='pt-6 md:pt-12'>
                         <h2 className='section-title'>Archived Projects</h2>
                         <p className='subtitle'>Here are some of the projects I've worked on since I started my programming journey.
-                            These projects have given me the chance to stay motivated and create apps that I found helpful or just really enjoyed making.
+                            These projects have given me the chance to stay motivated and create apps that I find useful or really enjoyed making.
                             <br /> <br />
-                            To learn more, please <b className='text-main'>click</b> any of the projects below to view the <b className='text-main'>github repo</b>.
-                            In the readme files I go into more details about each project, design decisions, and skills / technologies used.
+                            To learn more, please <b className='text-main'>click</b> on any of the projects below to view the <b className='text-main'>Github repo</b>.
+                            In the readme files, I go into more details about each project, design decisions, and skills / technologies used.
                         </p>
                     </div>
                 </div>
