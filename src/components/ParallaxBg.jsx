@@ -15,7 +15,7 @@ const ParallaxBg = () => {
             <div className='bg-tertiary h-10' />
             */}
             <div className='bg-tertiary h-10' />
-            <Parallax className='absolute bg-white sm:h-[15vh] sm:pt-10 md:h-[20vh] md:pt-6 lg:h-[25vh] lg:pt-4'
+            <Parallax className='absolute bg-white sm:h-[15vh] sm:pt-10 md:h-[20vh] md:pt-6 lg:h-[25vh] lg:pt-4 xl:pt-0'
                 bgImage={spider} bgImageAlt='parallaxImageMotor' strength={400} />
             <div className='bg-tertiary h-10' />
         </div>
