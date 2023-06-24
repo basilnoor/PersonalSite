@@ -62,7 +62,7 @@ const Work = () => {
                                     <div className='absolute bg-blue-400 h-6 w-6 rounded-full border-4 border-white -top-1 -left-1 animate-ping'></div>
                                 </div>
                                 <div className='pl-10'>
-                                    <span className='text-xs font-bold opacity-40 tracking-widest'>25 May 2023 - 4 Aug 2023</span>
+                                    <span className='text-xs font-bold opacity-40 tracking-widest'>May 2023 - Aug 2023</span>
                                     <h3 className='text-2xl font-semibold tracking-widest mb-2'>Freddie Mac</h3>
                                     <p className='text-main'>
                                         Software Engineering Intern
